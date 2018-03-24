@@ -22,6 +22,10 @@
 
 03-24-2018 12:17pm - Comepleted article.js (first TODO)
 
+03-24-2018 2:00pm - Realized that authorUrl is not rendering into HTML as a hyperlink.
+
+03-24-2018 4:37pm - Fixed our functions and made them into arrow functions
+
 
 
 ## Credits and Collaborations
