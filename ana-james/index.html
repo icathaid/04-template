@@ -10,9 +10,20 @@
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
+    
+    <script id="handlebars-template" type="text/x-handlebars-template">
+      <div>
+        <h2>{{title}}</h2>
+        <p>Category: {{category}}</p>
+        <p>Author: {{author}}</p>
+        <p>AuthorUrl: {{authorUrl}}</p>
+        <p>PublishedON: {{publishedOn}}</p>
+        {{{body}}}
+      </div>
+    </script>
 
     <!--
-      TODO: Add a script tag to hold the Handlebars template.
+      TODONE: Add a script tag to hold the Handlebars template.
         - Be sure to give it a meaningful id attribute.
         - Move your old template structure to here. Remember that this template needs to have the same structure as the old one!
         - Insert placeholder keys.
@@ -73,8 +84,8 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- TODO: Include Handlebars.JS from a CDN -->
-
+    <!-- TODONE: Include Handlebars.JS from a CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
     <script src="scripts/blogArticles.js"></script>
     <script src="scripts/article.js"></script>
     <script src="scripts/articleView.js"></script>
