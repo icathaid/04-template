@@ -20,7 +20,7 @@
 
 03-24-2018 11:35am - James started off as the driver for our code. We worked through index.html together and completed it. We A-C-P to ana-james and merged to master.
 
-03-24-2018 11:40am - 
+03-24-2018 12:17pm - Comepleted article.js (first TODO)
 
 
 
