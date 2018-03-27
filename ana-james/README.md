@@ -26,6 +26,8 @@
 
 03-24-2018 4:37pm - Fixed our functions and made them into arrow functions
 
+03-26-2018 7:08pm - Completed todo's and commented.
+
 
 
 ## Credits and Collaborations
